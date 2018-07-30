@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Skiing and Snowboarding')
+@section('title', 'Bumboarding Parties | The Ski Deck Ferndale')
 
 @section('content')
 
@@ -25,11 +25,11 @@
     <div class="col-md-12 col-md-offset-1">
         
          <div class="container-fluid">
-          <h1 style="color: #fff;">Hello World!</h1>
+          <h1 style="color: #fff;">Fun Sliding Parties all year round</h1>
           <div class="row">
             <div align="center" class="col-md-8 col-md-offset-1">
 
-             <img src="images/a7023a_f1e3d1e348d241edab40e6a9feeae7bd~mv2.jpg">
+             <img src="images/DSC_350.jpg">
 
             </div>
           </div>
@@ -42,13 +42,13 @@
     <div class="col-md-12 col-md-offset-1">
         
          <div class="container-fluid">
-          <h1 style="color: #fff;">Hello World!</h1>
+          <h1 style="color: #fff;">Bumboarding Parties Johannesburg Ferndale Randburg</h1>
           <div class="row">
-            <div align="center" class="col-md-8 col-md-offset-1">
+            <div class="col-md-8 col-md-offset-1">
 
             	<h1 style="text-align: center;">{{ $post['title'] }}
                 @if(Auth::User()['email']==="bookings@ski.co.za")
-                  <a href="{{ route('posts.edit',3) }}" style="float: right;" class="btn btn-warning">EDIT</a>
+                  <a href="{{ route('posts.edit',6) }}" style="float: right;" class="btn btn-warning">EDIT</a>
                 @endif
               </h1>
 

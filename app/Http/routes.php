@@ -34,5 +34,10 @@ Route::group(['middleware' => 'web'], function () {
     Route::get('/', 'FrontController@welcome');
     Route::get('/skiing', 'FrontController@skiing');
     Route::get('/shop', 'FrontController@shop');
+    Route::get('/parties', 'FrontController@parties');
+    Route::get('/contact', 'FrontController@contact');
+    Route::get('/items', 'FrontController@items');
+    Route::get('/bumboarding', 'FrontController@bumboarding');
+    Route::get('/slide', 'FrontController@slide');
 
 });

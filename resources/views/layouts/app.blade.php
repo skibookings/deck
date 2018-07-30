@@ -65,7 +65,24 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/') }}">Home</a></li>
                     <li><a href="{{ url('/skiing') }}">Skiing & Snowboarding</a></li>
-                    <li><a href="{{ url('/shop') }}">Ski & Snowboard shop</a></li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="{{ url('/shop') }}">
+                        Ski & Snowboard shop <span class="caret"></span>
+                      </a>
+                          <ul class="dropdown-menu" role="menu">
+                              <li><a href="{{ url('/items') }}">Essential Items</a></li>
+                          </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="{{ url('/parties') }}">
+                        Kids' Parties <span class="caret"></span>
+                      </a>
+                          <ul class="dropdown-menu" role="menu">
+                              <li><a href="{{ url('/bumboarding') }}">Bumboarding Parties</a></li>
+                              <li><a href="{{ url('/slide') }}">Water Slide Parties</a></li>
+                          </ul>
+                    </li>
+                    <li><a href="{{ url('/contact') }}">Contact Us</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->

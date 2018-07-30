@@ -48,7 +48,7 @@
 
             	<h1 style="text-align: center;">{{ $post['title'] }}
                 @if(Auth::User()['email']==="bookings@ski.co.za")
-                  <a href="{{ route('posts.edit',3) }}" style="float: right;" class="btn btn-warning">EDIT</a>
+                  <a href="{{ route('posts.edit',7) }}" style="float: right;" class="btn btn-warning">EDIT</a>
                 @endif
               </h1>
 
